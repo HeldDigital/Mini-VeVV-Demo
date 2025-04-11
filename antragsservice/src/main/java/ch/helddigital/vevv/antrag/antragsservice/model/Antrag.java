@@ -1,3 +1,4 @@
+//antragsservice/src/main/java/ch/helddigital/vevv/antrag/antragsservice/model/Antrag.java
 package ch.helddigital.vevv.antrag.antragsservice.model;
 
 import jakarta.persistence.*;
