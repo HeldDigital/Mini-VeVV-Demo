@@ -114,3 +114,12 @@ public void sendPendingOutboxEvents() {
 - Später skalierbar: Auslagerung als eigener Microservice (`outbox-dispatcher`)
 
 ---
+
+
+## ✅ Implementierte Features
+
+1. **Outbox-Pattern mit Spring Retry**
+   - Speichern von Kafka-Nachrichten in einer Outbox-Datenbanktabelle
+   - Asynchrone Verarbeitung durch Scheduled Task
+   - Retry-Mechanismus bei Kafka-Versandfehlern (`@Retryable`, `@Recover`)
+   - Crashsichere Verarbeitung (bei Fehlern bleiben Events erhalten)
